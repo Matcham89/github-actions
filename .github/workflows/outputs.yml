@@ -17,4 +17,4 @@ jobs:
 
       - name: show output
         run: |
-        echo $(git rev-parse --short HEAD)
+          echo $(git rev-parse --short HEAD)
